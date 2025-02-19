@@ -1,0 +1,51 @@
+h1 {
+    color:red
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List</title>
+    <style>
+        /* CSS for the box model */
+        ul {
+            list-style-type: :checked;
+            padding: 9px; 10px;
+            margin: 10px;
+            border: 2px solid #000;
+            background-color: #f0f0f0;
+            width: 300px;
+        }
+        li {
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: unset;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://myanimelist.net/anime/51009/Jujutsu_Kaisen_2nd_Season" target="_blank">Jujutsu Kaisen</a></li>
+        <li><a href="https://myanimelist.net/anime/33352/Violet_Evergarden" target="_blank">Violet Evergarden</a></li>
+        <li><a href="https://myanimelist.net/anime/1575/Code_Geass_Hangyaku_no_Lelouch" target="_blank">Code Geass: Lelouch of the Rebellion</a></li>
+        <li><a href="https://myanimelist.net/anime/31251/Kidou_Senshi_Gundam__Tekketsu_no_Orphans" target="_blank">Mobile Suit Gundam: Iron-Blooded Orphans</a></li>
+        <li><a href="https://myanimelist.net/anime/21/One_Piece" target="_blank">One Piece</a></li>
+    </ul>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+</body>
+</html>
+
+
+
