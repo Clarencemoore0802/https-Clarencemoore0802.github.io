@@ -1,0 +1,45 @@
+h1 {
+    color: red;
+    filter: drop-shadow(8px 6px 15px blue);
+    background: rgb(8,0,136);
+    background: linear-gradient(90deg, rgba(8,0,136,1) 0%, rgba(0, 0, 0, 0.857) 68%, rgba(0,212,255,1) 100%);
+    background-image: url(c:\Users\cjisg\Downloads\Rjpg);
+    background-size: cover; /* This ensures the image covers the entire area */
+    background-blend-mode: overlay; /* This blends the gradient and the image */
+    text-shadow: 2px 2px red;
+    font-family: Georgia, serif;
+  font-size: 60px;
+  color: blueviolet;
+}
+
+
+   
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    width: 300px;
+}
+
+li {
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
